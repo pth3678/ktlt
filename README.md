@@ -7,17 +7,17 @@
 
 **Trường:** Đại học Bách Khoa Hà Nội
 
-# Mục lục
-## Tổng quan dự án
-## Yêu cầu nộp bài
-## Phân công nhóm 
-## Phân tích bài toán
-## Thiết kế hệ thống 
-## Thuật Toán
-## Kiểm thử và đo hiệu năng
-## Cấu trúc báo cáo
+## Mục lục
+* [Tổng quan dự án](#tổng-quan-dự-án)
+* [Yêu cầu nộp bài](#yêu-cầu-nộp-bài)
+* [Phân công nhóm](#phân-công-nhóm)
+* [Phân tích bài toán](#phân-tích-bài-toán)
+* [Thiết kế hệ thống](#thiết-kế-hệ-thống)
+* [Thuật Toán](#thuật-toán)
+* [Kiểm thử và đo hiệu năng](#kiểm-thử-và-đo-hiệu-năng)
+* [Cấu trúc báo cáo](#cấu-trúc-báo-cáo)
 ---
-# Tổng quan dự án:
+## Tổng quan dự án:
 **Ngôn ngữ lựa chọn:** Python.
 ### 1.1 Mô tả bài toán: 
 
@@ -35,7 +35,7 @@ Hệ thống hỗ trợ quản lý ngân hàng câu hỏi, tự động tạo đ
 
 ---
 
-# Yêu cầu nộp bài
+## Yêu cầu nộp bài
 
 ## 1. Yêu cầu kỹ thuật cốt lõi
 - **Tự cài đặt cấu trúc dữ liệu:** Không được sử dụng các cấu trúc dữ liệu nâng cao hoặc thư viện có sẵn (ví dụ: `list`, `hash`, `queue`, thư viện ma trận, thư viện số lớn, các thư viện sắp xếp/tìm kiếm tích hợp sẵn).
@@ -66,7 +66,7 @@ Chứa toàn bộ mã nguồn của chương trình:
 
 ---
 
-# Phân công nhóm 
+## Phân công nhóm 
 
 ### 2.1 Thành viên 1: Logic lõi 
 Trọng tâm là xử lý mảng và từ điển bằng code tay:
@@ -89,23 +89,23 @@ Trọng tâm là xây dựng GUI và quản lý trạng thái:
 
 ---
 
-# Phân tích bài toán 
+## Phân tích bài toán 
 
-## Đầu vào (Input) và Đầu ra (Output)
+### Đầu vào (Input) và Đầu ra (Output)
 
-### Đầu vào:
+* Đầu vào:
 - **Ngân hàng câu hỏi:** File `questions.json` chứa danh sách câu hỏi, bao gồm: nội dung, 4 đáp án, đáp án đúng và phân loại độ khó (Dễ/Vừa/Khó).
 - **Cấu hình kỳ thi:** Người dùng chọn Môn học, Thời gian làm bài và số lượng câu hỏi thông qua giao diện.
 - **Bài làm của thí sinh:** Danh sách đáp án người dùng chọn trong quá trình làm bài.
 
-### Đầu ra:
+* Đầu ra:
 - **Đề thi:** Một danh sách câu hỏi đã được xáo trộn thứ tự và xáo trộn đáp án.
 - **Kết quả chi tiết:** Tổng điểm (thang 10), danh sách câu trả lời đúng/sai và thời gian hoàn thành.
 - **Phân tích:** Bảng đối chiếu lỗi sai (hiển thị câu trả lời của người dùng so với đáp án đúng).
 - **Lịch sử thi:** Lưu trữ kết quả vào `results.json` để phục vụ chức năng bảng xếp hạng.
 
 
-## Cấu trúc dữ liệu
+### Cấu trúc dữ liệu
 
 | Cấu trúc | Mục đích | Lý do chọn |
 | :--- | :--- | :--- |
@@ -117,7 +117,7 @@ Trọng tâm là xây dựng GUI và quản lý trạng thái:
 
 ---
 
-# Thiết kế hệ thống 
+## Thiết kế hệ thống 
 ### Thiết kế Diagram
 ```text
 +-----------------------+    +-----------------------+
@@ -166,7 +166,7 @@ Trọng tâm là xây dựng GUI và quản lý trạng thái:
 ```
 ---
 
-# Thuật toán
+## Thuật toán
 
 ### Peseudocode
 ```text
@@ -249,12 +249,12 @@ FUNCTION results(user_answers, exam_data, userTime):
 
 ---
 
-# Kiểm thử và đo hiệu năng
+## Kiểm thử và đo hiệu năng
 
 
 ---
 
-# Cấu trúc báo cáo
+## Cấu trúc báo cáo
 
 File báo cáo (word), thể thức (font chữ, trình bày) tham khảo mẫu đồ án của Đại học. Một số thông tin cần có: 
 
