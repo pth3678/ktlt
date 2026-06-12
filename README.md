@@ -4,7 +4,7 @@
 ---
 
 **Nhóm 12:** Dương Tiến Dũng và Phan Tiến Hưng 
-**Trường:** Đại học Bách Khoa Hà Nội
+\ **Trường:** Đại học Bách Khoa Hà Nội
 
 # Mục lục
 ## Tổng quan dự án
@@ -118,7 +118,7 @@ Trọng tâm là xây dựng GUI và quản lý trạng thái:
 
 # Thiết kế hệ thống 
 ### Thiết kế Diagram
-
+```text
 +-----------------------+    +-----------------------+
 |      Question         |    |      ExamEngine       |
 +-----------------------+    +-----------------------+
@@ -146,9 +146,9 @@ Trọng tâm là xây dựng GUI và quản lý trạng thái:
 | + startTimer()        |
 | + updateDisplay()     |
 +-----------------------+
-
+```
 ### Format dữ liệu(JSON)
-
+```text
 {
     "id": 1,
     "subject": "Toan",
@@ -162,13 +162,13 @@ Trọng tâm là xây dựng GUI và quản lý trạng thái:
     },
     "correct_label": "A"
   }
-
+```
 ---
 
 # Thuật toán
 
 ### Peseudocode
-
+```text
 CLASS randomLCG:
     FUNCTION initialize(seed):
         state = seed, a = 1664525, c = 1013904223, m = 2^32
@@ -245,7 +245,7 @@ FUNCTION results(user_answers, exam_data, userTime):
 | **Bubble Sort** | $O(N^2)$ | $O(N)$ |
 | **`generate_exam`** | $O(N + M)$ | $O(M)$ |
 *(Với $N$: tổng số câu hỏi trong ngân hàng, $M$: số câu hỏi trong một đề thi)*
-
+```
 ---
 
 # Kiểm thử và đo hiệu năng
