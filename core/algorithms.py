@@ -7,8 +7,9 @@ class randomLCG:
         self.a= 1664525
         self.c=1013904223
         self.m= 2**32
-
-    def next(self,low,high):
+    
+    #Trả về một số trong khoảng từ low đến high
+    def next(self,low,high): 
         self.state=(self.a * self.state + self.c) % self.m
         return low + (self.state % (high-low))
 
