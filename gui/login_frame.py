@@ -19,7 +19,10 @@ class LoginFrame(tk.Frame):
         tk.Label(self.form, text="Tên tài khoản (Username):", font=("Helvetica", 10, "bold"), bg="white").pack(anchor="w", pady=5)
         self.username_entry = tk.Entry(self.form, font=("Helvetica", 11), width=30)
         self.username_entry.pack(pady=5)
+<<<<<<< HEAD
         self.username_entry.insert(0, "Nhập tên của bạn ở đây...") # Placeholder text
+=======
+>>>>>>> 50eef18d20d96f83eaa1cc11a76cec06c05fc144
         
         # Lắng nghe sự kiện gõ chữ trên ô Username để tự động ẩn/hiện ô Password
         self.username_entry.bind("<KeyRelease>", self.toggle_password_field)
@@ -45,7 +48,7 @@ class LoginFrame(tk.Frame):
             self.hint.pack_forget()
             self.lbl_pass.pack(anchor="w", pady=5)
             self.password_entry.pack(pady=5)
-            self.hint.pack(pady=12) # Đẩy dòng gợi ý xuống dưới cùng lại
+            self.hint.pack(pady=12)
         else:
             # Nếu gõ tên khác, ẩn hoàn toàn ô nhập mật khẩu đi
             self.lbl_pass.pack_forget()
