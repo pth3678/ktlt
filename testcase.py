@@ -97,7 +97,6 @@ class TestQuizSystemFullSuite(unittest.TestCase):
                         "correct_text": "22"
                     }
                 ],
-                "status": "pending"
             }
         ]
         
