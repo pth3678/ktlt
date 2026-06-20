@@ -99,7 +99,7 @@ plt.savefig(os.path.join(OUT_DIR, "chart_tonghop_4duong.png"), dpi=150)
 plt.close()
 print("Đã lưu: chart_tonghop_4duong.png")
 
-# Biểu đồ 4: Hệ số cải thiện (improvement factor) theo N - chỉ kịch bản đã sắp sẵn vì đây là nơi có cải thiện rõ
+# Biểu đồ 4: Hệ số cải thiện (improvement factor) theo N - chỉ kịch bản đã sắp sẵn
 fig, ax = plt.subplots(figsize=(8, 5.5))
 improvement_s = [float(r["improvement_factor"]) for r in sorted_rows]
 improvement_r = [float(r["improvement_factor"]) for r in random_rows]

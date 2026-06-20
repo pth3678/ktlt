@@ -41,7 +41,6 @@ plt.savefig("/home/claude/ktlt-new/ktlt-main/chart_comparison.png", dpi=150)
 plt.close()
 
 # ===== Biểu đồ 2: bubble_sort riêng - dùng trục N dạng rời rạc (categorical)
-# để 4 mốc 100/500/1000/10000 cách đều nhau, dễ đọc hơn trục tuyến tính thật =====
 fig, ax = plt.subplots(figsize=(8, 5.5))
 x_pos = range(len(n_vals))
 ax.errorbar(x_pos, bubble_ms, yerr=bubble_std, marker='s', color='#dc2626', linewidth=2, capsize=4, label='Thực đo (đo lặp lại, lấy trung bình)')

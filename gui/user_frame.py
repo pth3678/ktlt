@@ -258,7 +258,7 @@ class UserFrame(tk.Frame):
         
         tk.Label(container, text="🏆 BẢNG XẾP HẠNG THÍ SINH ĐIỂM CAO", font=("Helvetica", 12, "bold"), bg="#f4f6f9", fg="#ff9800").pack(pady=5, anchor="w")
         
-        # Sắp xếp toàn bộ danh sách kết quả bằng thuật toán bubble_sort có sẵn của ông
+        # Sắp xếp toàn bộ danh sách kết quả bằng thuật toán bubble_sort có sẵn
         sorted_list = bubble_sort(self.controller.results_db, key=lambda x: x.get("score", 0))
         
         # Khởi tạo thanh Tab (Notebook) để phân tách các môn học
